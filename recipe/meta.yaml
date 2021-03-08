@@ -1,5 +1,5 @@
 {% set name = "koalas" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 598893d787b522826bf4ae0d9b94821ba69162b553cb9e31d32a556ab5f623f2
+  sha256: 03f9fc5d21d7ac4897028e0aa6ae7dc55c3a5540b386035d577b1d567c5024d5
 
 build:
   number: 0

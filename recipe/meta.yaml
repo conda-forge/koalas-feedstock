@@ -19,7 +19,7 @@ requirements:
     - pip
     - python >=3.5,<3.9
   run:
-    - numpy >=1.14
+    - numpy >=1.14,<1.20.0
     - pandas >=0.23.2,<1.2.0
     - pyarrow >=0.10
     - python >=3.5,<3.9

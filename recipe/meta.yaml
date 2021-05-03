@@ -1,5 +1,5 @@
 {% set name = "koalas" %}
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 03f9fc5d21d7ac4897028e0aa6ae7dc55c3a5540b386035d577b1d567c5024d5
+  sha256: 389b4be77fb1372a133e1d9bf826a03c3ac63d07a15ef716cd03da7037184415
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - python >=3.5,<3.9
   run:
     - numpy >=1.14,<1.20.0
-    - pandas >=0.23.2,<1.2.0
+    - pandas >=0.23.2
     - pyarrow >=0.10
     - python >=3.5,<3.9
 
